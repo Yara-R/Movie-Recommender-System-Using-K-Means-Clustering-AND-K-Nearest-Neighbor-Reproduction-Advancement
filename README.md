@@ -21,6 +21,14 @@ This repository contains the implementation, reproduction, and extension of the 
 - **Institution**: CESAR School
 - **Course**: Aprendizado de Máquina - 2025.1.
 
+## 📄 Original Article
+
+- Ahuja, M., Yadav, D., & Rajput, V. (2019). [Movie Recommender System Using K-Means Clustering and K-Nearest Neighbor](https://ieeexplore.ieee.org/abstract/document/8776969/references#references). *2019 3rd International Conference on Trends in Electronics and Informatics (ICOEI)*.
+
+## 📊 Dataset
+
+- [MovieLens 100k Dataset (Kaggle)](https://www.kaggle.com/datasets/prajitdatta/movielens-100k-dataset/data)
+
 
 ## 🛠️ Features
 
