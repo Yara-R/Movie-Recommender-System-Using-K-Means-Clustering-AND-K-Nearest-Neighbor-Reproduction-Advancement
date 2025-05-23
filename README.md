@@ -29,17 +29,40 @@ This repository contains the implementation, reproduction, and extension of the 
 
 - [MovieLens 100k Dataset (Kaggle)](https://www.kaggle.com/datasets/prajitdatta/movielens-100k-dataset/data)
 
+## ✅ Project Overview
 
-## 🛠️ Features
+This project is divided into two main stages:
 
-- Hybrid recommendation engine (K-Means + KNN)
-- User-based collaborative filtering
-- Genre-based clustering
-- Experiments with normalization, dimensionality reduction, and dynamic k
+### 1. 🔁 Reproduction of the Original Model
+We faithfully reproduced the methodology proposed by Ahuja et al. (2019), which combines:
+- **K-Means clustering** based on movie genres;
+- **Collaborative filtering** using **Pearson correlation** for user similarity;
+- **K-Nearest Neighbors (KNN)** for rating prediction.
 
-## 📈 Evaluation
+We validated the implementation using the MovieLens 100k dataset and calculated the RMSE over a test set:
+- 📌 **RMSE (Reproduced model):** 1.180  
+- 📌 **RMSE reported in article:** 1.081  
 
-Model performance is assessed using Root Mean Square Error (RMSE), with comparison between the original and enhanced versions of the algorithm.
+### 2. 🚀 Extension with Supervised Learning
+We extended the original pipeline by replacing the KNN-based predictor with supervised regression models:
+- **TruncatedSVD + Linear Regression**
+- **Multi-Layer Perceptron (MLP)**
+- **XGBoost Regressor**
+
+Each model was trained using engineered features derived from:
+- Cluster-based user ratings;
+- User-user similarity vectors.
+
+🔎 **RMSE Comparison of Models:**
+| Model                         | RMSE    |
+|------------------------------|---------|
+| Original (Article)           | 1.0816  |
+| Reproduced (This work)       | 1.1801  |
+| Improved KNN Reproduction    | 1.0923  |
+| SVD + Linear Regression      | 1.0453  |
+| MLP Regressor                | 1.0461  |
+| XGBoost                      | 1.0418  |
+
 
 ## 📄 License
 
