@@ -70,6 +70,6 @@ This project is licensed under the MIT License.
 
 ## 👥 Colaboradores
 
-| [<img src="https://avatars.githubusercontent.com/u/116604134?v=4" width=115><br><sub>Diego Costa Arruda</sub>](https://github.com/Arrudadiego) | [<img src="https://avatars.githubusercontent.com/u/116359369?v=4" width=115><br><sub>Flávio Muniz</sub>](https://github.com/flavio-muniz) | [<img src="https://avatars.githubusercontent.com/u/00000003?v=4" width=115><br><sub>Henrique Roma</sub>](https://github.com/henriqueroma) |
+| [<img src="https://avatars.githubusercontent.com/u/116604134?v=4" width=115><br><sub>Diego Costa Arruda</sub>](https://github.com/Arrudadiego) | [<img src="https://avatars.githubusercontent.com/u/116359369?v=4" width=115><br><sub>Flávio Muniz</sub>](https://github.com/flavio-muniz) | [<img src="https://avatars.githubusercontent.com/u/112914701?v=4" width=115><br><sub>Henrique Roma</sub>](https://github.com/hhenrique7510) |
 | :---: | :---: | :---: |
 | [<img src="https://avatars.githubusercontent.com/u/105346791?v=4" width=115><br><sub>João Lafetá</sub>](https://github.com/joaohlafeta) | [<img src="https://avatars.githubusercontent.com/u/83378430?v=4" width=115><br><sub>Rodrigo Dubeux</sub>](https://github.com/Cenafowzin) | [<img src="https://avatars.githubusercontent.com/u/103130662?v=4" width=115><br><sub>Yara Rodrigues</sub>](https://github.com/Yara-R) |
