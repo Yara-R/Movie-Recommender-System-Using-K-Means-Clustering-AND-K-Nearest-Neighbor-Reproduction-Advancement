@@ -1,4 +1,4 @@
-# Movie Recommender System Using K-Means Clustering and K-Nearest Neighbor: Reproduction & Extension
+# Reproduction and Extension of the K-Means and KNN-Based Recommendation System with Supervised Models
 
 <p align="center">
 
