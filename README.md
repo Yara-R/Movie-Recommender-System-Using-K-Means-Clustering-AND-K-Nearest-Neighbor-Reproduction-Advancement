@@ -12,8 +12,6 @@
 
 </p>
 
-# Movie Recommender System Using K-Means Clustering and K-Nearest Neighbor
-
 This repository contains the implementation, reproduction, and extension of the article _"Movie Recommender System Using K-Means Clustering and K-Nearest Neighbor"_, developed as part of the final project for the Machine Learning course at CESAR School.
 
 ## 📚 Course Information
